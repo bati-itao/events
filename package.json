@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
+    "convert": "npx csvtojson events.csv > events.json  ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
